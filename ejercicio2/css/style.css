@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+@media screen and (min-width: 300px) {
+    body {
+        width: 100%;
+        height: 100vh;
+        background-color: green;
+    }
+
+    main {
+        height: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    section {
+        width: 100%;
+        padding: 1rem;
+        border-radius: 20px;
+    }
+
+    .cantidad {
+        width: 350px;
+        height: 250px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 2rem;
+        border-radius: 20px;
+        background-color: #000;
+        color: #fff;
+        text-align: center;
+    }
+
+    .cantidad p {
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+
+    form {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    form section {
+        width: 100%;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    input, select {
+        width: 90%;
+        padding: .5rem;
+        border: 2px solid
+    }
+
+    .btn {
+        background-color: #000;
+        color: #fff;
+        width: 150px;
+        height: 40px;
+        border: 2px solid #000;
+    }
+
+    .carta__contenedor {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    .carta {
+        width: 228px;
+        height: 320px;
+        border: 1px solid;
+        background-color: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        border-radius: 10px;
+    }
+    
+    .carta p {
+        font-size: 2.5rem;
+        margin: .5rem 1.1rem;
+        font-weight: bold;
+    }
+    
+    .carta section {
+        width: 100%;
+        height: 100px;
+        text-align: center;
+    }
+    
+    .bi {
+        font-size: 4rem;
+    }
+    
+    
+    .carta p:last-child {
+        text-align: end;
+    }
+    
+    .resultado {
+        margin-top: 3rem;
+        text-align: center;
+    }
+
+    .jugador {
+        display: flex;
+    }
+    footer {
+        height: 10%;
+        display: grid;
+        place-items: center;
+        background-color: #000;
+        color: #fff;
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    input, select {
+        width: 480px;
+        padding: .5rem;
+        border: 2px solid
+    }
+    .cantidad {
+        width: 400px;
+        height: 250px;
+    }
+}
+
