@@ -5,58 +5,266 @@
     box-sizing: border-box;
 }
 
-body {
-    width: 100%;
-    height: 100vh;
+@media screen and (min-width:300px) {
+    body {
+        width: 100%;
+        height: 100vh;
+    }
+
+    header {
+        height: 12%;
+        display: grid;
+        place-items: center;
+        background-color: #802bad;
+        color: #d8f75e;
+    }
+
+    main {
+        width: 100%;
+        height: 78%;
+        background-color: #c25ef7;
+        display: grid;
+        place-items: center;
+        color: #d8f75e;
+    }
+
+    .form__contenedor {
+        width: 100%;
+        height: 400px;
+        padding: 1rem;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    form {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    form section {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    form label {
+        font-size: 1.3rem;
+    }
+
+    input {
+        width: 80%;
+        height: 45px;
+        padding: .7rem;
+        font-size: 1.1rem;
+        border-radius: 10px;
+        background-color: aliceblue;
+    }
+
+    .sueldo p {
+        font-size: 1.3rem;
+        margin: 1rem 0;
+    }
+
+    .btn {
+        width: 50%;
+        height: 45px;
+        border-radius: 10px;
+        font-size: .9rem;
+        background-color: #d8f75e;
+        color: #802bad;
+    }
+
+    footer {
+        height: 10%;
+        background-color: #802bad;
+        color: #d8f75e;
+        display: grid;
+        place-items: center;
+        font-size: 1.3rem;
+    }
+
+}
+@media screen and (min-width:700px) {
+    body {
+        width: 100%;
+        height: 100vh;
+    }
+
+    header {
+        height: 8%;
+        display: grid;
+        place-items: center;
+        background-color: #802bad;
+        color: #d8f75e;
+    }
+
+    main {
+        width: 100%;
+        height: 84%;
+        background-color: #c25ef7;
+        display: grid;
+        place-items: center;
+        color: #d8f75e;
+    }
+
+    .form__contenedor {
+        width: 100%;
+        height: 400px;
+        padding: 1rem;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    form {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    form section {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    form label {
+        font-size: 1.3rem;
+    }
+
+    input {
+        width: 65%;
+        height: 45px;
+        padding: .7rem;
+        font-size: 1.1rem;
+        border-radius: 10px;
+        background-color: aliceblue;
+    }
+
+    .sueldo p {
+        font-size: 1.3rem;
+        margin: 1rem 0;
+        text-align: center;
+    }
+
+    .btn {
+        width: 220px;
+        height: 45px;
+        border-radius: 10px;
+        font-size: .9rem;
+        background-color: #d8f75e;
+        color: #802bad;
+    }
+
+    footer {
+        height: 8%;
+        background-color: #802bad;
+        color: #d8f75e;
+        display: grid;
+        place-items: center;
+        font-size: 1.3rem;
+    }
+
 }
 
-h1 {
-    font-weight: 300;
-}
+@media screen and (min-width:1024px) {
+    body {
+        width: 100%;
+        height: 100vh;
+    }
 
-header {
-    height: 8%;
-    display: grid;
-    place-items: center;
-    background-color: #7fffd4;
-}
+    header {
+        height: 8%;
+        display: grid;
+        place-items: center;
+        background-color: #802bad;
+        color: #d8f75e;
+    }
 
-main {
-    height: 84%;
-    background-color: black;
-    display: grid;
-    place-items: center;
-}
+    main {
+        width: 100%;
+        height: 84%;
+        background-color: #c25ef7;
+        display: grid;
+        place-items: center;
+        color: #d8f75e;
+    }
 
-section {
-    height: 80%;
-    width: 100%;
-}
+    .form__contenedor {
+        width: 50%;
+        height: 400px;
+        padding: 1rem;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 1rem;
+    }
 
-table {
-    border-collapse: collapse;
-    width: 25%;
-    height: 85%;
-    margin: 0 auto;
-    text-align: center;
-}
+    form {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
 
-table th {
-    color: #fff;
-    font-size: 1.3rem;
-    padding: 1rem;
-}
+    form section {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
 
-table td {
-    background-color: #fff;
-    border: 1px solid;
-    width: calc(100% / 2);
-}
+    form label {
+        font-size: 1.3rem;
+    }
 
-footer {
-    height: 8%;
-    background-color: #7fffd4;
-    display: grid;
-    place-items: center;
-    font-size: 1.3rem;
+    input {
+        width: 65%;
+        height: 45px;
+        padding: .7rem;
+        font-size: 1.1rem;
+        border-radius: 10px;
+        background-color: aliceblue;
+    }
+
+    .sueldo p {
+        font-size: 1.3rem;
+        margin: 1rem 0;
+    }
+
+    .btn {
+        width: 220px;
+        height: 45px;
+        border-radius: 10px;
+        font-size: .9rem;
+        background-color: #d8f75e;
+        color: #802bad;
+    }
+
+    footer {
+        height: 8%;
+        background-color: #802bad;
+        color: #d8f75e;
+        display: grid;
+        place-items: center;
+        font-size: 1.3rem;
+    }
+
 }

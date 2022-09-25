@@ -1,12 +1,2 @@
-Ignacio;19
-Ignacio;28
-Ignacio;16
-Ignacio;13
-Ignacio;25
-Ignacio;15
-Pepito;27
-juan;18
-juan;22
-carlos;19
-carlos;22
-carlos;13
+Ignacio;23
+Ignacio;30

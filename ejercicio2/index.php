@@ -13,7 +13,6 @@
             <input type="submit" class="btn" value="Jugar">
         </form>
     </section>
-    <a href="./php/consulta.php">Ganadores</a>
 </main>
 
 <?php

@@ -127,12 +127,9 @@
     if(!file_exists($carpeta)){
         mkdir($carpeta);
     }
-
-
-    $datosJugador = [$jugador, $total];
-    $linea = implode(";", $datosJugador);
+    $linea = $jugador .';' . $total . PHP_EOL;
     $archivo = fopen($carpeta.$nombreArchivo, 'a');
-    fputs($archivo, $linea . PHP_EOL);
+    fputs($archivo, $linea);
     fclose($archivo);
 ?>
 <body>
